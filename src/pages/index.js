@@ -1,20 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import Happenings from "../components/happenings";
+
+import vappu from '../static/vappu.jpg';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <SEO title="Orientaatioviikko" />
+    <div className="ImageContainer">
+      <img src={vappu} alt="Taidemuseonmäen lakitus" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="TextContainer">
+      Tervetuloa ja suuret onnittelut, että olet päässyt opiskelemaan Turun yliopistoon kone- tai materiaalitekniikka.
+      Näiltä sivuilta löydät ohjeita, joiden avulla yliopiston aloittaminen helpottuu. Nähdään pian!
+    </div>
+    <Happenings />
   </Layout>
 )
 
