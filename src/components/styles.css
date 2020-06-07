@@ -137,7 +137,7 @@ footer {
 
 .ImageContainer {
   max-width: 700px;
-  padding: 1.5em 1.5em;
+  padding: 1.5em;
 }
 
 .ImageContainer > img {
@@ -185,4 +185,46 @@ footer {
   font-size: 1.4rem;
   margin: 0;
   color: lightblue;
+}
+
+.Tutors {
+  padding: 1.5em;
+}
+
+.Tutors > h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.TutorPair {
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 2px solid #888;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
+.Tutor {
+  display: inline-flex;
+  margin: 0.5em 0;
+}
+
+.Tutor > .Tutor-info {
+  padding: 1em;
+  max-width: 200px;
+  line-height: 1.4;
+}
+
+.Tutor > .Tutor-info > h1 {
+  font-size: 1.1rem;
+  color: lightblue;
+}
+
+.Tutor > .Tutor-info > p {
+  margin-top: 0.5em;
+}
+
+.Tutor > img {
+  max-height: 200px;
 }

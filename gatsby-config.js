@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Kone- ja materiaalitekniikka`,
+    description: `Turun yliopiston kone- ja materiaalitekniikan uusien opiskelijoiden tietopankki`,
+    author: `Konsta Purtsi`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,8 +14,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#333`,
+        theme_color: `#000`,
         display: `minimal-ui`,
         icon: `src/static/ty-logo.png`, // This path is relative to the root of the site.
       },
