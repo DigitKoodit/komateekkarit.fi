@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Happenings from "../components/happenings";
+import Happenings from "../components/happenings/happenings";
 
 import vappu from '../static/vappu.jpg';
 
