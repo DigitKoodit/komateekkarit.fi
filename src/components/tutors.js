@@ -1,19 +1,41 @@
 import React from 'react';
 import { FiBriefcase, FiPhone, FiMail } from 'react-icons/fi';
 
+import miika from '../static/miika.jpeg';
+import emilia from '../static/emilia.jpeg';
 import sini from '../static/sini.jpeg';
 import konsta from '../static/konsta.jpeg';
 
 const koneTutors = [[{
+  image: miika,
+  name: 'Miika Peltotalo',
+  bio: '6. vuoden tietotekniikan opiskelija',
+  mail: 'mvjpel[ät]utu.fi'
+}, {
+  image: miika,
+  name: 'Silja-Sofia Palojoki',
+  bio: '2. vuoden biotekniikan opiskelija',
+  mail: '?? '
+}], [{
+  image: emilia,
+  name: 'Emilia Kalliokoski',
+  bio: '5. vuoden tilastotieteen opiskelija',
+  mail: 'emamka[ät]utu.fi'
+}, {
+  image: emilia,
+  name: 'Kalle Hautamäki',
+  bio: '4. vuoden tietotekniikan opiskelija',
+  mail: 'emamka[ät]utu.fi'
+}], [{
   image: sini,
   name: 'Sini Toivola',
   bio: '5. vuoden fysiikan opiskelija',
-  mail: 'situto@utu.fi',
+  mail: 'situto[ät]utu.fi',
 }, {
   image: konsta,
   name: 'Konsta Purtsi',
   bio: '5. vuoden tietotekniikan opiskelija',
-  mail: 'kovipu@utu.fi'
+  mail: 'kovipu[ät]utu.fi'
 }]];
 
 
