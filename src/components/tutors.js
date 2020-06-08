@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiBriefcase, FiPhone, FiMail } from 'react-icons/fi';
+import { FiBriefcase, FiMail } from 'react-icons/fi';
 
 import miika from '../static/miika.jpeg';
 import emilia from '../static/emilia.jpeg';
@@ -67,10 +67,10 @@ const renderPair = pair => {
     <div className="TutorPair">
       <div className="Tutor">
         {renderTutorInfo(tutor1)}
-        <img src={tutor1.image} />
+        <img src={tutor1.image} className="Tutor-img1" />
       </div>
       <div className="Tutor">
-        <img src={tutor2.image} />
+        <img src={tutor2.image} className="Tutor-img2" />
         {renderTutorInfo(tutor2)}
       </div>
     </div>

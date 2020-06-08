@@ -57,7 +57,7 @@ table {
 body {
   font-family: 'Raleway', sans-serif;
   color: #fff;
-  background: #333;
+  background: #5fa096;
 }
 
 header {
@@ -123,7 +123,7 @@ footer {
   font-size: 1.1rem;
   font-weight: 500;
   text-align: center;
-  color: lightblue;
+  color: greenyellow;
   line-height: 1.3;
 }
 
@@ -161,10 +161,26 @@ footer {
   width: 100%;
 }
 
+@media (min-width: 800px), (min-screen-width: 800px) {
+  .Happenings_mobile {
+    display: none;
+  }
+}
+
+.Happenings_desktop {
+  display: inline-flex;
+}
+
+@media (min-width: 800px), (min-screen-width: 800px) {
+  .Happenings_desktop {
+    display: block;
+  }
+}
+
 .Happenings > h1 {
   font-size: 1.8rem;
   margin-bottom: 0.3em;
-  color: lightblue;
+  color: greenyellow;
 }
 
 .Day {
@@ -184,11 +200,12 @@ footer {
 .Event > h3 {
   font-size: 1.4rem;
   margin: 0;
-  color: lightblue;
+  color: greenyellow;
 }
 
 .Tutors {
   padding: 1.5em;
+  text-align: center;
 }
 
 .Tutors > h1 {
@@ -198,16 +215,14 @@ footer {
 
 .TutorPair {
   display: inline-flex;
+  justify-content: center;
   flex-wrap: wrap;
-  border: 2px solid #888;
-  border-radius: 5px;
-  padding: 0.5em;
-  margin: 1em 0;
+  border-bottom: 3px solid #3c887c;
+  padding: 1em;
 }
 
 .Tutor {
   display: inline-flex;
-  margin: 0.5em 0;
 }
 
 .Tutor > .Tutor-info {
@@ -218,7 +233,7 @@ footer {
 
 .Tutor > .Tutor-info > h1 {
   font-size: 1.1rem;
-  color: lightblue;
+  color: greenyellow;
 }
 
 .Tutor > .Tutor-info > p {
@@ -227,4 +242,16 @@ footer {
 
 .Tutor > img {
   width: 120px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.21);
+}
+
+@media (min-width: 720px), (min-screen-width: 720px) {
+  .Tutor-img1 {
+    border-radius: 5px 0 0 5px !important;
+  }
+
+  .Tutor-img2 {
+    border-radius: 0 5px 5px 0 !important;
+  }
 }
