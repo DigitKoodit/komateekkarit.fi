@@ -16,7 +16,6 @@ const IndexPage = () => (
       Tervetuloa ja suuret onnittelut, että olet päässyt opiskelemaan Turun yliopistoon kone- tai materiaalitekniikka.
       Näiltä sivuilta löydät ohjeita, joiden avulla yliopiston aloittaminen helpottuu. Nähdään pian!
     </div>
-    <Happenings />
   </Layout>
 )
 
