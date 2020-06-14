@@ -91,7 +91,7 @@ header > a:hover {
 
 main {
   width: 1200px;
-  max-width: 100vw;
+  max-width: 98vw;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -265,21 +265,22 @@ footer {
 }
 
 .Tutors {
-  padding: 1.5em;
   text-align: center;
 }
 
 .Tutors > h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .TutorPair {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-bottom: 3px solid #3c887c;
-  padding: 1em;
+  margin: 1.5em 1em;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.21);
+  background-color: #3c887c;
 }
 
 .Tutor {
@@ -290,7 +291,10 @@ footer {
   padding: 1em;
   max-width: 200px;
   line-height: 1.4;
-  text-align: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Tutor > .Tutor-info > h1 {
@@ -303,17 +307,15 @@ footer {
 }
 
 .Tutor > img {
-  width: 120px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.21);
+  width: 50%;
 }
 
 @media (min-width: 720px), (min-screen-width: 720px) {
-  .Tutor-img1 {
-    border-radius: 5px 0 0 5px !important;
+  .Tutor-info {
+    width: 200px;
   }
 
-  .Tutor-img2 {
-    border-radius: 0 5px 5px 0 !important;
+  .Tutor > img {
+    width: 120px;
   }
 }

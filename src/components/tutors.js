@@ -2,9 +2,21 @@ import React from 'react';
 import { FiBriefcase, FiMail } from 'react-icons/fi';
 
 import miika from '../static/miika.jpeg';
+import silja from '../static/silja.jpeg';
 import emilia from '../static/emilia.jpeg';
 import sini from '../static/sini.jpeg';
 import konsta from '../static/konsta.jpeg';
+import millina from '../static/millina.jpeg';
+import sofia from '../static/sofia.jpeg';
+import mikko from '../static/mikko.jpeg';
+
+import kimmo from '../static/kimmo.jpeg';
+import yasmine from '../static/yasmine.jpeg';
+import laura from '../static/laura.jpeg';
+import jami from '../static/jami.jpeg';
+import niklas from '../static/niklas.jpeg';
+import juhana from '../static/juhana.jpeg';
+import juho from '../static/juho.jpeg';
 
 const koneTutors = [[{
   image: miika,
@@ -12,10 +24,10 @@ const koneTutors = [[{
   bio: '6. vuoden tietotekniikan opiskelija',
   mail: 'mvjpel[ät]utu.fi'
 }, {
-  image: miika,
+  image: silja,
   name: 'Silja-Sofia Palojoki',
   bio: '2. vuoden biotekniikan opiskelija',
-  mail: '?? '
+  mail: 'sispal[ät]utu.fi'
 }], [{
   image: emilia,
   name: 'Emilia Kalliokoski',
@@ -36,6 +48,78 @@ const koneTutors = [[{
   name: 'Konsta Purtsi',
   bio: '5. vuoden tietotekniikan opiskelija',
   mail: 'kovipu[ät]utu.fi'
+}], [{
+  image: millina,
+  name: 'Millina Lehikoinen',
+  bio: '2. vuoden tietotekniikan opiskelija',
+  mail: 'milehi[ät]utu.fi'
+}, {
+  image: sofia,
+  name: 'Sofia Pöntys',
+  bio: '3. vuoden fysiikan opiskelija',
+  mail: 'skpont[ät]utu.fi'
+}], [{
+  image: mikko,
+  name: 'Mikko Jaskari',
+  bio: '5. vuoden matematiikan opiskelija',
+  mail: 'mimajas[ät]utu.fi'
+}, {
+  image: mikko,
+  name: 'Rio Koskelo',
+  bio: '5. vuoden tietotekniikan opiskelija',
+  mail: 'rlskos[ät]utu.fi'
+}]];
+
+const materialTutors = [[{
+  image: kimmo,
+  name: 'Kimmo Pyyhtiä',
+  bio: '5. vuoden fysiikan opiskelija ja materiaalitekniikan opiskelija',
+  mail: 'kitapy[ät]utu.fi'
+}, {
+  image: yasmine,
+  name: 'Yasmine Rantala',
+  bio: '4. vuoden tietotekniikan opiskelija',
+  mail: 'ycbran[ät]utu.fi'
+}], [{
+  image: laura,
+  name: 'Laura Forsman',
+  bio: '5. vuoden biotekniikan opiskelija',
+  mail: 'laelfo[ät]utu.fi'
+}, {
+  image: laura,
+  name: 'Minorka Kiljala',
+  bio: '4. vuoden tietotekniikan opiskelija',
+  mail: '??'
+}], [{
+  image: jami,
+  name: 'Jami Selin',
+  bio: '4. vuoden tietotekniikan opiskelija',
+  mail: '??'
+}, {
+  image: niklas,
+  name: 'Niklas Luomala',
+  bio: '6. vuoden tietotekniikan opiskelija',
+  mail: 'nemluo[ät]utu.fi'
+}], [{
+  image: juhana,
+  name: 'Juhana Kuparinen',
+  bio: '2. vuoden tietotekniikan opiskelija',
+  mail: 'jmkupa[ät]utu.fi'
+}, {
+  image: juhana,
+  name: 'Matias Kumpulainen',
+  bio: '??',
+  mail: '??'
+}], [{
+  image: juho,
+  name: 'Juho Ollila',
+  bio: '2. vuoden tietotekniikan opiskelija',
+  mail: 'jtolli[ät]utu.fi'
+}, {
+  image: juho,
+  name: 'Jutta Lindfors',
+  bio: '??',
+  mail: '??'
 }]];
 
 
@@ -45,6 +129,7 @@ const Tutors = () => (
     {koneTutors.map(renderPair)}
 
     <h1>Materiaalitekniikan tuutorit</h1>
+    {materialTutors.map(renderPair)}
   </div>
 );
 
