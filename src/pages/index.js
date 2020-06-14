@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Happenings from "../components/happenings/happenings";
+import Todo from "../components/todo";
 
 import vappu from '../static/vappu.jpg';
 
@@ -15,6 +15,10 @@ const IndexPage = () => (
     <div className="TextContainer">
       Tervetuloa ja suuret onnittelut, että olet päässyt opiskelemaan Turun yliopistoon kone- tai materiaalitekniikka.
       Näiltä sivuilta löydät ohjeita, joiden avulla yliopiston aloittaminen helpottuu. Nähdään pian!
+      
+      <h3>Uuden opiskelijan muistilista</h3>
+
+      <Todo />
     </div>
   </Layout>
 )
