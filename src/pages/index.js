@@ -8,12 +8,12 @@ import vappu from '../static/vappu.jpg';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Orientaatioviikko" />
+    <SEO title="Tervetuloa" />
     <div className="ImageContainer">
       <img src={vappu} alt="Taidemuseonmäen lakitus" />
     </div>
     <div className="TextContainer">
-      Tervetuloa ja suuret onnittelut, että olet päässyt opiskelemaan Turun yliopistoon kone- tai materiaalitekniikka.
+      Tervetuloa ja suuret onnittelut, että olet päässyt opiskelemaan Turun yliopistoon kone- tai materiaalitekniikkaa.
       Näiltä sivuilta löydät ohjeita, joiden avulla yliopiston aloittaminen helpottuu. Nähdään pian!
       
       <h3>Uuden opiskelijan muistilista</h3>
@@ -23,4 +23,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;

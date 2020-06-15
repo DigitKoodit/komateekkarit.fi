@@ -161,6 +161,11 @@ footer {
   font-weight: 700;
 }
 
+.TextContainer strong {
+  font-weight: 700;
+  color: greenyellow;
+}
+
 .Todo {
   margin-left: 20px;
 }
