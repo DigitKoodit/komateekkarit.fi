@@ -4,7 +4,7 @@ const Todo = () => (
   <div className="Todo">
     <ul>
       <li>Ilmoittaudu yliopistoon ja ylioppilaskuntaan, ohjeet löydät <Link href="https://www.utu.fi/fi/opiskelijaksi/ilmo">täältä.</Link></li>
-      <li>Tilaa opiskelijakortti <Link href="https://www.frank.fi/opiskelijakortti/">Frankista</Link>, tärkeimpänä syynä 2,60€ hintainen opiskelijaruoka.</li>
+      <li>Tilaa opiskelijakortti <Link href="https://www.frank.fi/opiskelijakortti/">Frankista</Link>, tärkeimpänä syynä 3,06€ hintainen opiskelijaruoka.</li>
       <li>
         Hanki asumispaikka <strong>jo heti</strong> ensimmäiselle viikolle.
         Kannattaa hakea asuntoa <Link href="https://tys.fi/">TYS:ltä</Link>, uudet opiskelijat ohittelevat jonossa.
