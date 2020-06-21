@@ -9,14 +9,22 @@ import konsta from '../static/konsta.jpeg';
 import millina from '../static/millina.jpeg';
 import sofia from '../static/sofia.jpeg';
 import mikko from '../static/mikko.jpeg';
+import rio from '../static/rio.jpeg';
+import ira from '../static/ira.jpeg';
+import lauri from '../static/lauri.jpg';
+import veera from '../static/veera.jpeg';
+import katariina from '../static/katariina.jpeg';
 
 import kimmo from '../static/kimmo.jpeg';
 import yasmine from '../static/yasmine.jpeg';
 import laura from '../static/laura.jpeg';
+import minorka from '../static/minorka.jpeg';
 import jami from '../static/jami.jpeg';
 import niklas from '../static/niklas.jpeg';
 import juhana from '../static/juhana.jpeg';
+import matias from '../static/matias.jpeg';
 import juho from '../static/juho.jpeg';
+import jutta from '../static/jutta.jpeg';
 
 const koneTutors = [[{
   image: miika,
@@ -64,10 +72,30 @@ const koneTutors = [[{
   bio: '5. vuoden matematiikan opiskelija',
   mail: 'mimajas[ät]utu.fi'
 }, {
-  image: mikko,
+  image: rio,
   name: 'Rio Koskelo',
   bio: '5. vuoden tietotekniikan opiskelija',
   mail: 'rlskos[ät]utu.fi'
+}], [{
+  image: ira,
+  name: 'Ira Tulla',
+  bio: '6. vuoden kemian opiskelija',
+  mail: 'irmatu[ät]utu.fi'
+}, {
+  image: lauri,
+  name: 'Lauri Laakkonen',
+  bio: '6. vuoden tietotekniikan opiskelija',
+  mail: 'laulaa[ät]utu.fi'
+}], [{
+  image: veera,
+  name: 'Veera Pajunen',
+  bio: '3. vuoden geologian opiskelija',
+  mail: 'vepaju[ät]utu.fi'
+}, {
+  image: katariina,
+  name: 'Katariina Kilkku',
+  bio: '4. vuoden biotekniikan opiskelija',
+  mail: 'kamakil[ät]utu.fi'
 }]];
 
 const materialTutors = [[{
@@ -86,15 +114,15 @@ const materialTutors = [[{
   bio: '5. vuoden biotekniikan opiskelija',
   mail: 'laelfo[ät]utu.fi'
 }, {
-  image: laura,
+  image: minorka,
   name: 'Minorka Kiljala',
   bio: '4. vuoden tietotekniikan opiskelija',
-  mail: '??'
+  mail: 'mtkilj[ät]utu.fi'
 }], [{
   image: jami,
   name: 'Jami Selin',
   bio: '4. vuoden tietotekniikan opiskelija',
-  mail: '??'
+  mail: '<salainen>'
 }, {
   image: niklas,
   name: 'Niklas Luomala',
@@ -106,20 +134,20 @@ const materialTutors = [[{
   bio: '2. vuoden tietotekniikan opiskelija',
   mail: 'jmkupa[ät]utu.fi'
 }, {
-  image: juhana,
+  image: matias,
   name: 'Matias Kumpulainen',
-  bio: '??',
-  mail: '??'
+  bio: '2. vuoden tietotekniikan opiskelija',
+  mail: 'mvkump[ät]utu.fi'
 }], [{
   image: juho,
   name: 'Juho Ollila',
   bio: '2. vuoden tietotekniikan opiskelija',
   mail: 'jtolli[ät]utu.fi'
 }, {
-  image: juho,
+  image: jutta,
   name: 'Jutta Lindfors',
-  bio: '??',
-  mail: '??'
+  bio: '4. vuoden biotekniikan opiskelija',
+  mail: 'jumlin[ät]utu.fi'
 }]];
 
 

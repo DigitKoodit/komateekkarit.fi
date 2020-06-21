@@ -104,6 +104,10 @@ footer {
   height: 80px;
 }
 
+svg {
+  vertical-align: middle;
+}
+
 .PageHeader {
   display: inline-flex;
   flex-wrap: wrap;

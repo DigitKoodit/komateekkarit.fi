@@ -20,7 +20,15 @@ module.exports = {
         icon: `src/static/ty-logo.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-client-side-redirect`
+    `gatsby-plugin-client-side-redirect`,
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: `www.komateekkarit.fi`,
+        protocol: `https`,
+        hostname: `komateekkarit.fi`
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
