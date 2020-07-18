@@ -46,7 +46,7 @@ const koneTutors = [[{
   image: kalle, // 2581 x 3265
   name: 'Kalle Hautamäki',
   bio: '4. vuoden tietotekniikan opiskelija',
-  mail: 'emamka[ät]utu.fi'
+  mail: 'kvjhau[ät]utu.fi'
 }], [{
   image: konsta,
   name: 'Konsta Purtsi',
