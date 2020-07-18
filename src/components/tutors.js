@@ -3,6 +3,7 @@ import { FiBriefcase, FiMail } from 'react-icons/fi';
 
 import miika from '../static/miika.jpeg';
 import silja from '../static/silja.jpeg';
+import kalle from '../static/kalle.jpeg';
 import emilia from '../static/emilia.jpeg';
 import sini from '../static/sini.jpeg';
 import konsta from '../static/konsta.jpeg';
@@ -37,12 +38,12 @@ const koneTutors = [[{
   bio: '2. vuoden biotekniikan opiskelija',
   mail: 'sispal[ät]utu.fi'
 }], [{
-  image: emilia,
+  image: emilia, // 424 x 562
   name: 'Emilia Kalliokoski',
   bio: '5. vuoden tilastotieteen opiskelija',
   mail: 'emamka[ät]utu.fi'
 }, {
-  image: emilia,
+  image: kalle, // 2581 x 3265
   name: 'Kalle Hautamäki',
   bio: '4. vuoden tietotekniikan opiskelija',
   mail: 'emamka[ät]utu.fi'
