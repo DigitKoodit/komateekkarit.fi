@@ -47,15 +47,15 @@ const koneTutors = [[{
   bio: '4. vuoden tietotekniikan opiskelija',
   mail: 'emamka[ät]utu.fi'
 }], [{
-  image: sini,
-  name: 'Sini Toivola',
-  bio: '5. vuoden fysiikan opiskelija',
-  mail: 'situto[ät]utu.fi',
-}, {
   image: konsta,
   name: 'Konsta Purtsi',
   bio: '5. vuoden tietotekniikan opiskelija',
   mail: 'kovipu[ät]utu.fi'
+}, {
+  image: sini,
+  name: 'Sini Toivola',
+  bio: '5. vuoden fysiikan opiskelija',
+  mail: 'situto[ät]utu.fi',
 }], [{
   image: millina,
   name: 'Millina Lehikoinen',
