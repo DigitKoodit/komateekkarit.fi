@@ -329,6 +329,7 @@ svg {
 .Tutor > .Tutor-info {
   padding: 1em;
   max-width: 200px;
+  height: 100%;
   line-height: 1.4;
   text-align: center;
   display: flex;
