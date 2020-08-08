@@ -10,6 +10,9 @@ const Header = () => (
     <Link to="/tuutorit">
       Tuutorit
     </Link>
+    <Link to="/muistilista">
+      Muistilista
+    </Link>
   </header>
 )
 
