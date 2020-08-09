@@ -169,6 +169,10 @@ svg {
   color: greenyellow;
 }
 
+.TextContainer > p {
+  text-align: right;
+}
+
 .Todo {
   margin-left: 20px;
 }
@@ -286,18 +290,26 @@ svg {
 
 .Day > h2 {
   font-size: 1.5rem;
-  margin-bottom: 1em;
 }
 
 .Event {
   line-height: 1.4;
-  margin: 1em 0.5em;
+  padding: 0.7em 1.5em;
+  margin: 0.5em 0;
+  background-color: #3c887c;
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.21);
 }
 
 .Event > h3 {
-  font-size: 1.4rem;
+  font-size: 1.3em;
   margin: 0;
   color: greenyellow;
+}
+
+.Event > p {
+  display: flex;
+  margin-top: 0.3em;
 }
 
 .Tutors {

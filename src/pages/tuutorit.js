@@ -9,7 +9,7 @@ const TutorPage = () => (
     <SEO title="Tuutorit" />
     <div className="TextContainer">
       Kone- ja materiaalitekniikan tuutorit yhteystietoineen löydät tältä sivulta. Sinulle annetaan orientaatioviikolla
-      oma tuutorpari joka auttaa sinua koko fuksivuoden ajan.
+      oma tuutoripari joka auttaa sinua koko fuksivuoden ajan.
     </div>
     <Tutors />
   </Layout>

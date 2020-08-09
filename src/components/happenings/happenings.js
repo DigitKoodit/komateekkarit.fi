@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiMapPin, FiClock } from 'react-icons/fi';
 
 import Timetable from './timetable';
 
@@ -120,9 +121,15 @@ const Happenings = () => (
           <h2>{day.title}</h2>
           {day.events.map(e => (
             <div className="Event">
-              {e.time}
               <h3>{e.name}</h3>
-              {e.place}
+              <p>
+                <FiClock/>&nbsp;{e.time}
+              </p>
+              {e.place && (
+                <p>
+                  <FiMapPin />&nbsp;{e.place}
+                </p>
+              )}
             </div>
           ))}
         </div>
