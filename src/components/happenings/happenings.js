@@ -80,16 +80,21 @@ const happenings = [
       offset: 12,
       height: 8,
       secondary: {
-        name: 'Killat esittäytyvät',
+        name: 'TEK & TK esittäytyvät',
         time: '13:00 - 14:00',
         exclusiveTo: kone,
         offset: 4,
       }
     }, {
+      name: 'TEK & TK esittäytyvät',
+      time: '14:00 - 15:00',
+      exclusiveTo: materiaali,
+      height: 4,
+    }, {
       name: 'Rentoa kiltishengailua ja killan perustamispöhinää',
       time: '16:00 - 20:00',
       place: 'Kiltahuone',
-      offset: 8,
+      offset: 4,
       height: 16
     }]
   }, {
