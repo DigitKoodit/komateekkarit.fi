@@ -90,7 +90,6 @@ header > a:hover {
 }
 
 main {
-  width: 1200px;
   max-width: 98vw;
   margin-left: auto;
   margin-right: auto;
@@ -200,7 +199,7 @@ svg {
   width: 100%;
 }
 
-@media (min-width: 1100px), (min-screen-width: 1100px) {
+@media (min-width: 1200px), (min-screen-width: 1200px) {
   .Happenings_mobile {
     display: none;
   }
@@ -212,7 +211,7 @@ svg {
   margin-top: 2em;
 }
 
-@media (min-width: 1100px), (min-screen-width: 1100px) {
+@media (min-width: 1200px), (min-screen-width: 1200px) {
   .Happenings_desktop {
     display: grid;
   }
@@ -252,7 +251,8 @@ svg {
 }
 
 .Timetable-eventContainer {
-  padding: 0.2em;
+  display: flex;
+  width: 100%;
 }
 
 .Timetable-event {
@@ -278,10 +278,45 @@ svg {
   margin-bottom: 0.2em;
 }
 
+.Timetable-event--halfsize {
+  font-size: 0.7rem;
+  margin-right: 0.2em;
+}
+
+.Timetable-event--halfsize > h1 {
+  font-size: 0.8rem;
+}
+
 .Happenings > h1 {
   font-size: 1.8rem;
   margin-bottom: 0.5em;
   color: greenyellow;
+}
+
+.Happenings-colorcode {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.Happenings-colorcode > h2 {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.Happenings-colorcode .color-both {
+  color: #3c887c;
+}
+
+.Happenings-colorcode .color-kone {
+  color: rgb(136 60 109);
+}
+
+.Happenings-colorcode .color-materiaali {
+  color: #2c3d7d;
+}
+
+.MobileEventContainer {
+  display: flex;
 }
 
 .Day {
@@ -295,7 +330,8 @@ svg {
 .Event {
   line-height: 1.4;
   padding: 0.7em 1.5em;
-  margin: 0.5em 0;
+  margin: 0.5em 0.2em;
+  flex: 1;
   background-color: #3c887c;
   border-radius: 4px;
   box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.21);
@@ -304,7 +340,7 @@ svg {
 .Event > h3 {
   font-size: 1.3em;
   margin: 0;
-  color: greenyellow;
+  font-weight: 800;
 }
 
 .Event > p {
