@@ -36,26 +36,26 @@ const happenings = [
       height: 6,
     }, {
       name: 'Tiedekunnan luentoja',
-      time: '12:30 - 15:15',
-      height: 11
+      time: '12:30 - 15:00',
+      height: 10
     }, {
       name: 'Rentoa hengailua tuutoreiden johdolla',
-      place: 'Kiltahuone',
-      time: '15:15 - 20:00',
-      height: 19
+      time: '15:00 - 20:00',
+      height: 20
     }]
   }, {
     title: 'Tiistai 25.8.',
     events: [{
       name: 'Yliopiston sähköisiin järjestelmiin tutustuminen',
       time: '9:00 - 11:00',
-      height: 8
+      height: 8,
+      place: 'Agora K126A/B/C'
     }, {
       name: 'Lounas',
       time: '11:00 - 12:15',
       height: 5
     }, {
-      name: 'YTHS, CampusSport, Hybridi, TYY esittäytyvät',
+      name: 'YTHS, CampusSport, Hybridi & TYY esittäytyvät',
       time: '12:15 - 14:30',
       height: 9
     }, {
@@ -65,10 +65,15 @@ const happenings = [
       offset: 10,
       height: 12
     }, {
-      name: 'Baarikierros',
+      name: 'Puistokierros',
       time: '18:00 ->',
-      place: 'Hämeenkadun ja keskustan baarit',
-      height: 16
+      place: 'Kuuvuoren hiekkakenttä',
+      height: 16,
+      secondary: {
+        name: 'Vaihtoehtoinen ohjelma',
+        time: '20:00 ->',
+        place: 'Digitin kiltahuone'
+      }
     }]
   }, {
     title: 'Keskiviikko 26.8.',
@@ -91,9 +96,8 @@ const happenings = [
       exclusiveTo: materiaali,
       height: 4,
     }, {
-      name: 'Rentoa kiltishengailua ja killan perustamispöhinää',
+      name: 'Rentoa hengailua ja killan perustamispöhinää',
       time: '16:00 - 20:00',
-      place: 'Kiltahuone',
       offset: 4,
       height: 16
     }]
@@ -116,12 +120,7 @@ const happenings = [
       name: 'Teekkarifuksien rastikierros',
       place: 'Kampusalue ja keskusta',
       time: '17:00 - 22:00',
-      height: 16
-    }, {
-      name: 'Fuksi- ja pilttibileet',
-      time: '21:00 ->',
-      place: 'Night Club Vegas',
-      height: 12
+      height: 20
     }]
   }, {
     title: 'Perjantai 28.8.',
