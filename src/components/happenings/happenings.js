@@ -39,9 +39,9 @@ const happenings = [
       time: '12:30 - 15:00',
       height: 10
     }, {
-      name: 'Rentoa hengailua tuutoreiden johdolla',
+      name: 'Rentoa hengailua',
       time: '15:00 - 20:00',
-      height: 20
+      height: 20,
     }]
   }, {
     title: 'Tiistai 25.8.',
@@ -52,12 +52,12 @@ const happenings = [
       place: 'Agora K126A/B/C'
     }, {
       name: 'Lounas',
-      time: '11:00 - 12:15',
-      height: 5
+      time: '11:00 - 12:30',
+      height: 6
     }, {
       name: 'YTHS, CampusSport, Hybridi & TYY esittäytyvät',
-      time: '12:15 - 14:30',
-      height: 9
+      time: '12:30 - 14:30',
+      height: 8
     }, {
       name: 'Fuksikyykkä',
       time: '17:00 - 20:00',
@@ -114,7 +114,7 @@ const happenings = [
       name: 'DI-opiskelijainfo, (DI-vaiheen opiskelijoille)',
       place: 'Agora 110A/B',
       time: '15:00 - 17:00',
-      offset: 12,
+      offset: 4,
       height: 8
     }, {
       name: 'Teekkarifuksien rastikierros',
