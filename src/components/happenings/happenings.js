@@ -86,12 +86,14 @@ const happenings = [
       height: 8,
       secondary: {
         name: 'TEK & TK esittäytyvät',
+        place: 'Natura IX',
         time: '13:00 - 14:00',
         exclusiveTo: kone,
         offset: 4,
       }
     }, {
       name: 'TEK & TK esittäytyvät',
+      place: 'Natura IX',
       time: '14:00 - 15:00',
       exclusiveTo: materiaali,
       height: 4,
@@ -106,16 +108,23 @@ const happenings = [
     events: [{
       name: 'Henkilökuntaan tutustuminen',
       time: '10:00 - 12:00',
-      place: 'Teutorin aulatila',
+      place: 'Oranssi-punaisen koneen luona',
       offset: 4,
       height: 8,
       exclusiveTo: kone
     }, {
-      name: 'DI-opiskelijainfo, (DI-vaiheen opiskelijoille)',
-      place: 'Agora 110A/B',
+      name: 'DI-opiskelijainfo (DI-vaiheen opiskelijoille)',
+      place: 'Oranssi-punaisen koneen luona',
       time: '15:00 - 17:00',
-      offset: 4,
-      height: 8
+      offset: 12,
+      height: 8,
+      exclusiveTo: kone,
+      secondary: {
+        name: 'DI-opiskelijainfo (DI-vaiheen opiskelijoille)',
+        place: 'Agora 110A/B',
+        time: '15:00 - 17:00',
+        exclusiveTo: materiaali,
+      }
     }, {
       name: 'Teekkarifuksien rastikierros',
       place: 'Kampusalue ja keskusta',
