@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Fuksipassi from "../components/fuksipassi";
 
-const ChecklistPage = () => (
+const FuksipassiPage = () => (
   <Layout>
     <SEO title="Fuksipassi" />
     <div className="TextContainer">
@@ -13,4 +13,4 @@ const ChecklistPage = () => (
   </Layout>
 );
 
-export default ChecklistPage
+export default FuksipassiPage;
