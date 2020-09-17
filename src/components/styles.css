@@ -349,6 +349,37 @@ svg {
   margin-top: 0.3em;
 }
 
+.Fuksipassi {
+  max-width: 800px;
+}
+
+.Fuksipassi > h1 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.Fuksipassi > h2 {
+  font-weight: bold;
+  font-size: 2.0rem;
+  margin-bottom: 0.5em;
+  margin-top: 2.0em;
+}
+
+.Fuksipassi > h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  color: greenyellow;
+}
+
+.Fuksipassi > p {
+  margin-top: 1.0em;
+  margin-bottom: 1.0em;
+}
+
 .Tutors {
   text-align: center;
 }

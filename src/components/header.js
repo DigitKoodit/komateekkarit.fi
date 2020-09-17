@@ -13,6 +13,9 @@ const Header = () => (
     <Link to="/muistilista">
       Muistilista
     </Link>
+    <Link to="/fuksipassi">
+      Fuksipassi
+    </Link>
   </header>
 )
 
